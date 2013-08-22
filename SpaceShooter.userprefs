@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/BankShip.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Player/ShipMovement.cs" Line="34" Column="3" />
+      <File FileName="Assets/Scripts/Player/BankShip.cs" Line="24" Column="102" />
+      <File FileName="../../Learning/UnityStarfox/CookingWithUnity130429/Assets/ShipMovement.cs" Line="21" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
