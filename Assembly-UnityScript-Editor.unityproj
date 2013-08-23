@@ -101,6 +101,7 @@
      <None Include="Assets\Glow11\Shaders\Unity\Unlit-Color.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Reflect-ParallaxSpec.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Shaders\WireFrameSquare.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
      <None Include="Assets\Glow11\Shaders\Unity\Illumin-ParallaxSpec.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Alpha-Glossy.shader" />
@@ -224,6 +225,8 @@
       <Project>{6CBAE832-6030-6B42-800D-274572855DBB}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{41F4E3CF-A4EB-4D31-22F7-FC67D6B2239D}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

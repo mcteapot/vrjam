@@ -44,7 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EXPORT\_nitro\Scripts\Light_Flicker.js" />
+     <Compile Include="Assets\Scripts\PostEffect\WireFrameCamera.js" />
      <None Include="Assets\Glow11\Shaders\Unity\Unlit-AlphaTest.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Normal-Bumped.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -89,6 +89,7 @@
      <None Include="Assets\Glow11\Shaders\Unity\Unlit-Color.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Reflect-ParallaxSpec.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Shaders\WireFrameSquare.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
      <None Include="Assets\Glow11\Shaders\Unity\Illumin-ParallaxSpec.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Alpha-Glossy.shader" />
@@ -180,7 +181,7 @@
      <None Include="Assets\Glow11\Shaders\Unity\Alpha-Bumped.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Mobile\Mobile-VertexLit-OnlyDirectionalLights.shader" />
-     <None Include="Assets\EXPORT\_nitro\Shaders\Add_Layer.shader" />
+     <None Include="Assets\Standard Assets\_nitro\Shaders\Add_Layer.shader" />
      <None Include="Assets\Glow11\_internal\Resources\PostShaders\Glow11Blur.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />

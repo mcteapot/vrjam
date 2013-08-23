@@ -63,16 +63,17 @@
      <Compile Include="Assets\OVR\Scripts\OVRPlayerController.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRPresetManager.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRUtils.cs" />
-     <Compile Include="Assets\Scripts\HSBColor.cs" />
      <Compile Include="Assets\Scripts\Helper\FaceCamera.cs" />
+     <Compile Include="Assets\Scripts\Helper\HSBColor.cs" />
+     <Compile Include="Assets\Scripts\Helper\RandomHSB.cs" />
      <Compile Include="Assets\Scripts\Helper\ScrollTexture.cs" />
+     <Compile Include="Assets\Scripts\Helper\ShipThruster.cs" />
      <Compile Include="Assets\Scripts\Helper\SkyboxMesh.cs" />
      <Compile Include="Assets\Scripts\Player\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Player\MoveForward.cs" />
      <Compile Include="Assets\Scripts\Player\ShipBank.cs" />
      <Compile Include="Assets\Scripts\Player\ShipMovement.cs" />
      <Compile Include="Assets\Scripts\Player\ShootForward.cs" />
-     <Compile Include="Assets\Scripts\RandomHSB.cs" />
      <None Include="Assets\Glow11\Shaders\Unity\Unlit-AlphaTest.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Normal-Bumped.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -117,6 +118,7 @@
      <None Include="Assets\Glow11\Shaders\Unity\Unlit-Color.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Reflect-ParallaxSpec.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Shaders\WireFrameSquare.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
      <None Include="Assets\Glow11\Shaders\Unity\Illumin-ParallaxSpec.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Alpha-Glossy.shader" />
