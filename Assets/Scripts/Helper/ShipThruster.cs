@@ -16,7 +16,7 @@ public class ShipThruster : MonoBehaviour
 			hueColor = 0.07f;
 		}
 		
-		Debug.Log("HUECOLOR " + hueColor);
+		//Debug.Log("HUECOLOR " + hueColor);
 		HSBColor newColor = new HSBColor(hueColor,saturation,brightness,alpha);
 		
 		foreach(Material mat in materialsToChange)

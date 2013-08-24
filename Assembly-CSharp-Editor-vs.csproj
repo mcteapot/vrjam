@@ -44,6 +44,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EditorEnhancements\Editor\AssetInfo.cs" />
+     <Compile Include="Assets\EditorEnhancements\Editor\Common.cs" />
+     <Compile Include="Assets\EditorEnhancements\Editor\Defaults.cs" />
+     <Compile Include="Assets\EditorEnhancements\Editor\HierarchyWindow.cs" />
+     <Compile Include="Assets\EditorEnhancements\Editor\Main.cs" />
+     <Compile Include="Assets\EditorEnhancements\Editor\ProjectWindow.cs" />
+     <Compile Include="Assets\EditorEnhancements\Editor\TeneDropTarget.cs" />
+     <Compile Include="Assets\EditorEnhancements\Editor\TeneEnhPreviewWindow.cs" />
      <Compile Include="Assets\OVR\Editor\OVRBuild.cs" />
      <Compile Include="Assets\OVR\Editor\OVRCameraControllerEditor.cs" />
      <Compile Include="Assets\OVR\Editor\OVRDeviceEditor.cs" />
@@ -65,6 +73,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Unlit-Normal.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Shaders\GhostNoGloss.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Alpha-VertexLit.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Mobile\Mobile-Bumped.shader" />
@@ -80,6 +89,7 @@
      <None Include="Assets\Glow11\Shaders\Unity\Alpha-Parallax.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Shaders\GhostGlossGlow.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Alpha-BumpSpec.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\AlphaTest-BumpSpec.shader" />
@@ -96,6 +106,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\Shaders\WireFrameSquare.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Shaders\GhostGloss.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Illumin-ParallaxSpec.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Alpha-Glossy.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\AlphaTest-Diffuse.shader" />
