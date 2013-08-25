@@ -90,7 +90,7 @@ public class TeneEnhPreviewWindow : EditorWindow
 	static bool CanShowPreviewFor( string pGUID = null, string pPath = null, Object pAsset = null )
 	{
 		return false; // NOTES: Entred this to disable the preview
-		
+		/*	
 		Resolve( ref pGUID, ref pPath, ref pAsset );
 
 		// include specific things
@@ -113,6 +113,7 @@ public class TeneEnhPreviewWindow : EditorWindow
 			&& !( pAsset is Component )
 			&& pAsset.GetType().ToString() != "UnityEngine.Object"
 		);
+		*/
 	}
 
 	private void SetPosition( Rect pWindow, Vector2 pMouse )

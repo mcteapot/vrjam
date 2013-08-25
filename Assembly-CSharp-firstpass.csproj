@@ -116,6 +116,7 @@
      <None Include="Assets\Glow11\_internal\AdvancedBlur.cginc" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\AlphaTest-VertexLit.shader" />
+     <None Include="Assets\Shaders\GrideLines.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Reflect-Glossy.shader" />
      <None Include="Assets\Glow11\Shaders\Unity\Normal-ParallaxSpec.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
