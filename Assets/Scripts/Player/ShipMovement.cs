@@ -10,9 +10,11 @@ public class ShipMovement : MonoBehaviour
 	public float maxRotationVertical = 20.0f;
 	public int invert = -1; //Negative 1 for invert, positive 1 for not
 	
+	public float maxHeight = 20.0f;
+	public float maxSide = 15.0f;
+	
 	// Update is called once per frame
-	void Update ()
-	{
+	void Update () {
 		shipMove();
 	}
 	

@@ -46,6 +46,7 @@ public class SkyboxMesh : MonoBehaviour
 	public Shape		shape		= Shape.Sphere;
 	public Material		skybox;
 	public GameObject	follow;
+	public Vector3 		scaleSize	= new Vector3(1, 1, 1);
 	
 	void Awake()
 	{
@@ -62,6 +63,9 @@ public class SkyboxMesh : MonoBehaviour
 		_CreatePlane( mesh, "_DownTex",  Quaternion.Euler( 90.0f, 0.0f, 0.0f ) );
 	}
 	
+	void Start() {
+		transform.localScale = scaleSize;
+	}
 	void LateUpdate()
 	{
 		if( this.follow != null ) {
