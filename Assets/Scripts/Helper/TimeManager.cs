@@ -24,7 +24,7 @@ public class TimeManager : MonoBehaviour
 		StopAllCoroutines();
 		StartCoroutine("TransitionTimeScale");
 		Time.timeScale = timeScale;
-		Time.fixedDeltaTime = originalFixedDeltaTime * newTimeScale;
+		Time.fixedDeltaTime = originalFixedDeltaTime * newTimeScale;  //davised to add multiplery of 0.02f to smooth physics
 	}
 	
 	private IEnumerator TransitionTimeScale()

@@ -42,8 +42,22 @@ public class TimeShifters : MonoBehaviour {
 				//Debug.Log("TIME FAST");
 				TimeManager.Instance.ChangeTimeScale(1.0f, speedUpTimer);	
 			}
+			
 		} else {
-			Debug.Log("PC");
+			//Debug.Log("PC"); //remove inversion on inputmanager for timeShifter
+			
+			timeAxis = Input.GetAxisRaw("TimeShift");
+			
+			if(timeAxis != 0.0f && timeSlow == false) {
+				timeSlow = true;
+				//Debug.Log("TIME SLOW");
+				TimeManager.Instance.ChangeTimeScale(slowSpeed, slowDownTimer);
+			} else if(timeAxis == 0.0f && timeSlow == true) {
+				timeSlow = false;
+				//Debug.Log("TIME FAST");
+				TimeManager.Instance.ChangeTimeScale(1.0f, speedUpTimer);	
+			}
+			
 		}
 	}
 	

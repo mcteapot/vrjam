@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+﻿/*
+ by mcTeapot
+ @cyborgdino
+ 08/24/13
+*/
+
+using UnityEngine;
 using System;
 using System.Collections.Generic;
 using System.Linq; 
